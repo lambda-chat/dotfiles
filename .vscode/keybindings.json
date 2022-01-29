@@ -1,0 +1,10 @@
+[
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "workbench.action.togglePanel"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "-workbench.action.togglePanel"
+    }
+]

@@ -1,0 +1,56 @@
+{
+    // VS Code
+    "files.maxMemoryForLargeFilesMB": 8192,
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "workbench.tree.indent": 4,
+    "workbench.colorCustomizations": {
+        "editorError.foreground": "#ff000033",
+        "editorWarning.foreground": "#00ffff33",
+        "editorInfo.foreground": "#00ff0033",
+    },
+    "files.exclude": {
+        // Python
+        ".mypy_cache/": true,
+        ".pytest_cache/": true,
+        "**/__pycache__": true,
+    },
+    // Terminals
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+        },
+        "zsh": {
+            "path": "zsh",
+        },
+        "fish": {
+            "path": "/usr/bin/fish",
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux",
+        },
+        "pwsh": {
+            "path": "pwsh",
+            "icon": "terminal-powershell",
+        }  // only for Windows OS
+    },
+    // "terminal.integrated.fontFamily": "Cica",  # only for Windows OS
+    // Formatting
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    // Python
+    "python.pythonPath": "python3",  // or just `python`
+    "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.diagnosticMode": "workspace",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+    },
+    // C/C++
+    "C_Cpp.clang_format_path": "${workspaceFolder}/.clang-format",
+}
